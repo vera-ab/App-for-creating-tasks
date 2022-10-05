@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>list</title>
+</head>
+<body>
+    <h1 class="title">Your Task</h1>
+    <div class="content">
+        {% for list in lists %}
+            <div class="student">
+                <p><b>#{{ list.id }}</b></p>
+                <b>
+                    <p class="name">{{ list.title }}</p>
+                </b>
+
+
+            </div>
+        {% endfor %}
+    </div>
+</body>
+</html>
