@@ -1,5 +1,5 @@
 # :memo: Task List 
-*** 
+
 
 
 Very simple app to create, delete and track the status of the task. Was written on Flask with SQLAlchemy database
